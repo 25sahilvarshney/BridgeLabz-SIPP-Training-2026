@@ -1,0 +1,43 @@
+Level 2 Practice Programs
+1.Write a program to create a basic calculator for addition, subtraction, multiplication, and division. The program should ask for two numbers (floating point) and perform all the operations
+Hint => 
+Create a variable number1 and number2 and take user inputs.
+Perform Arithmetic Operations of addition, subtraction, multiplication, and division assign the result to a variable, and finally print the result
+I/P => number1, number2
+O/P => The addition, subtraction, multiplication, and division value of 2 numbers ___ and ___ is ___, ____, ____, and ___
+
+2.Write a program that takes the base and height in cm to find the area of a triangle in square inches and square centimeters 
+Hint => Area of a Triangle is ½ * base * height and 1 in = 2.54 cm
+I/P => base, height
+O/P => The Area of the triangle in sq in is ___ and sq cm is ___
+
+3.Write a program to find the side of the square whose parameter you read from the user 
+Hint => Perimeter of the Square is 4 times the side
+I/P => perimeter
+O/P => The length of the side is ___ whose perimeter is ____
+
+4.Write a program to find the distance in yards and miles for the distance provided by the user in feet
+Hint => 1 mile = 1760 yards and 1 yard is 3 feet
+I/P => distanceInFeet
+O/P => The distance in yards is ___ while the distance in miles is ___
+
+5.Write a program to input the unit price of an item and the quantity to be bought. Then, calculate the total price.
+Hint => NA
+I/P => unitPrice, quantity
+O/P => The total purchase price is INR ___ if the quantity ___ and unit price is INR ___
+
+6.Write a program to take 2 numbers and print their quotient and reminder
+Hint => Use division operator (/) for quotient and moduli operator (%) for reminder
+I/P => number1, number2
+O/P => The Quotient is ___ and Reminder is ___ of two number ___ and ___
+
+7.Write an IntOperation program by taking a, b, and c as input values and print the following integer operations a + b *c, a * b + c, c + a / b, and a % b + c. Please also understand the precedence of the operators. 
+Hint => 
+Create variables a, b, and c of int data type.
+Take user input for a, b, and c.
+Compute 3 integer operations and assign the result to a variable
+Finally, print the result and try to understand operator precedence.
+I/P => fee, discountPrecent
+O/P => The results of Int Operations are ___, ___, and ___
+
+8.Similarly, write the DoubleOpt program by taking double values and doing the same operations.
