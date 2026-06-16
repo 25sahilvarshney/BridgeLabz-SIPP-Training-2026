@@ -6,11 +6,12 @@ public class TowerOfHanoi{
         }
         towerOfHanoi(n - 1, source, helper, destination);
         System.out.println("Move disk " + n + "from " + source + " to " + destination);
-        towerOfHanoi(n - 1, hepler, destination, source);
+        towerOfHanoi(n - 1, helper, destination, source);
     }
 
     public static void main(String[] args) {
         int n = 3; 
         towerOfHanoi(n, 'A', 'C', 'B'); 
     }
+
 }
