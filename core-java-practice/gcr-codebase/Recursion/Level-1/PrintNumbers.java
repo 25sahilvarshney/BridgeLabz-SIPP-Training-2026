@@ -5,12 +5,11 @@ public class PrintNumbers {
             return ;
         }
         System.out.print(n + " ");
+        printnumbers(n - 1);
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printnumbers(n);    
     }
-
-
 }
