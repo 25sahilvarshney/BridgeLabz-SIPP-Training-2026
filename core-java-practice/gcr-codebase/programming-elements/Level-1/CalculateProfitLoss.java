@@ -7,6 +7,7 @@ public class CalculateProfitLoss {
         double ProfitPercentage = ((double)(profit / (double)costPrice)) *100;
         System.out.printf("The costPrice is  INR " + costPrice + " and sellingPrice is INR " + sellingPrice + "%n" +
         "The Profit is INR " + profit + " and the ProfitPercentage is " + ProfitPercentage);
+        
     }
     
 }
