@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
-public class User{
+public class Runtime{
     public static void main(String[] args){
         try{
             Scanner sc = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class User{
             System.out.print("division result:" + result);
 
         }
-        catch (ArithmeticExceptio e){
+        catch (ArithmeticException e){
             System.out.println("An Arithmetic Exception Occured:");
             
         }

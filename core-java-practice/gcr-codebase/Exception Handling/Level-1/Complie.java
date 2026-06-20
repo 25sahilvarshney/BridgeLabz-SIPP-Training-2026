@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-public class complie{
+public class Complie{
     public static void main(String[] args){
         try{
             BufferedReader read = new BufferedReader(new FileReader("data.txt"));
