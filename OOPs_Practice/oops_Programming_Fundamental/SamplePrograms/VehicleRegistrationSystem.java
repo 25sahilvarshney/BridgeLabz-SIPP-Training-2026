@@ -1,8 +1,8 @@
-package SamplePrograms;
+package samplePrograms;
 
 public class VehicleRegistrationSystem {
     static class Vehicle {
-        private static double registrationFee = 500.00;
+        private static double registrationFee = 1500.00;
         private final String registrationNumber;
         private String ownerName;
         private String vehicleType;
@@ -31,12 +31,12 @@ public class VehicleRegistrationSystem {
     }
 
     public static void main(String[] args) {
-        Vehicle v1 = new Vehicle("Rohit", "Car", "V1001");
-        Vehicle v2 = new Vehicle("Leena", "Bike", "V1002");
+        Vehicle v1 = new Vehicle("Sonal", "Car", "REG1234");
+        Vehicle v2 = new Vehicle("Ravi", "Motorcycle", "REG5678");
         v1.displayDetails();
         v2.displayDetails();
-        Vehicle.updateRegistrationFee(600.00);
-        System.out.println("Registration fee updated to Rs.600.00\n");
+        Vehicle.updateRegistrationFee(1800.00);
+        System.out.println("Registration fee updated to Rs.1800.00\n");
         v1.displayDetails();
         v2.displayDetails();
     }

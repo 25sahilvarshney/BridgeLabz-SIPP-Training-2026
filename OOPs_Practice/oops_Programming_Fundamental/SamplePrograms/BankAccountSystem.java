@@ -1,4 +1,4 @@
-package SamplePrograms;
+package samplePrograms;
 
 public class BankAccountSystem {
     static class BankAccount {
@@ -17,10 +17,6 @@ public class BankAccountSystem {
 
         public static void getTotalAccounts() {
             System.out.println("Total accounts: " + totalAccounts);
-        }
-
-        public static String getBankName() {
-            return bankName;
         }
 
         public void displayDetails() {

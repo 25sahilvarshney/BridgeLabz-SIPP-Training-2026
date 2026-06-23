@@ -1,4 +1,4 @@
-package SamplePrograms;
+package samplePrograms;
 
 public class EmployeeManagementSystem {
     static class Employee {
