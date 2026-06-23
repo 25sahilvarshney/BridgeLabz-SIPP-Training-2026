@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class BankAc {
+class BankAccount {
     private static int totalAccounts     = 0;
     private static int nextAccountNumber = 1001;
     private int      accountNumber;
@@ -11,7 +11,7 @@ class BankAc {
     private String[] transactionLog;
     private int      logCount;
 
-    BankAc(String holder, double initialDeposit) {
+    BankAccount(String holder, double initialDeposit) {
         this.accountNumber  = nextAccountNumber++;  
         this.holder         = holder;
         this.balance        = initialDeposit;
@@ -82,8 +82,7 @@ class TransactionLogger {
     }
 }
 
-
-public class BankAccount { 
+class BankApp { 
     public static void main(String[] args) {
         TransactionLogger.printHeader();
         
