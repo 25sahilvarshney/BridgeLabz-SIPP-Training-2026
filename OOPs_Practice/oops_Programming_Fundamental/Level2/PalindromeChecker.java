@@ -20,7 +20,7 @@ public class PalindromeChecker {
     }
 
     public static void main(String[] args) {
-        PalindromeChecker p1 = new PalindromeChecker("Madam");
+        PalindromeChecker p1 = new PalindromeChecker("madam");
         PalindromeChecker p2 = new PalindromeChecker("Hello");
         p1.displayResult();
         p2.displayResult();
