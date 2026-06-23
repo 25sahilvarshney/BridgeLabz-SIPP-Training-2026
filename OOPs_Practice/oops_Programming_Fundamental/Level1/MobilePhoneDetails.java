@@ -1,3 +1,4 @@
+
 class MobilePhoneDetails {
     private String brand;
     private String model;
