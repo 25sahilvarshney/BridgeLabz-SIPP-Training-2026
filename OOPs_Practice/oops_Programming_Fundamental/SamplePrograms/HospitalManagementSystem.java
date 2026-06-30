@@ -1,4 +1,4 @@
-package samplePrograms;
+
 
 public class HospitalManagementSystem {
     static class Patient {

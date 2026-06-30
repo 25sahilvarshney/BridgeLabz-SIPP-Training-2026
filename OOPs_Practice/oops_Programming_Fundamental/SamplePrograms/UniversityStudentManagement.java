@@ -1,4 +1,4 @@
-package samplePrograms;
+
 
 public class UniversityStudentManagement {
     static class Student {
