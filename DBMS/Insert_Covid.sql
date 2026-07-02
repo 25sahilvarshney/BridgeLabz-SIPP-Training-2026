@@ -1,4 +1,4 @@
-INSERT INTO covid_cases
+INSERT INTO covid_19_india_db
 (date, time, state, confirmed_indian_national,
 confirmed_foreign_national, recoveries, deaths, confirmed_cases)
 VALUES
