@@ -1,4 +1,4 @@
-ALTER TABLE covid_cases
+ALTER TABLE covid_19_india
 ADD vaccination_rate FLOAT;
 
 UPDATE covid_19_india
