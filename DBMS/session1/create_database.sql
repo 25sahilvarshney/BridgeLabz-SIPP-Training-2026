@@ -3,15 +3,15 @@ CREATE DATABASE covid_19_india_db;
 USE covid_19_india_db;
 
 CREATE TABLE covid_19_india (
-    Sno INT PRIMARY KEY,
-    Date VARCHAR(20),
-    Time VARCHAR(20),
-    `State/UnionTerritory` VARCHAR(100),
-    ConfirmedIndianNational INT,
-    ConfirmedForeignNational INT,
-    Cured INT,
-    Deaths INT,
-    Confirmed INT
+    Sno INT PRIMARY KEY AUTO_INCREMENT,
+    RecordDate DATE,
+    RecordTime TIME,
+    State_UnionTerritory VARCHAR(100),
+    ConfirmedIndianNational INT DEFAULT 0,
+    ConfirmedForeignNational INT DEFAULT 0,
+    Cured INT DEFAULT 0,
+    Deaths INT DEFAULT 0,
+    Confirmed INT DEFAULT 0
 );
 
 CREATE TABLE covid_vaccine_statewise (
