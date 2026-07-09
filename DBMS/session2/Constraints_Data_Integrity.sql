@@ -1,22 +1,17 @@
-CREATE TABLE countries (
-    Country VARCHAR(100) PRIMARY KEY,
-    Country_Code VARCHAR(10)
-);
+USE covid_19_india_db;
 
-CREATE TABLE covid_cases (
-    Country VARCHAR(100) NOT NULL,
-    Date DATE NOT NULL,
-    Confirmed_Cases INT NOT NULL,
-    Deaths INT DEFAULT 0,
-    Recoveries INT DEFAULT 0,
-    Last_Updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ALTER TABLE covid_19_india
+MODIFY Confirmed INT NOT NULL;
 
-    PRIMARY KEY (Country, Date),
+ALTER TABLE covid_19_india
+MODIFY Cured INT DEFAULT 0;
 
-    CONSTRAINT fk_country
-    FOREIGN KEY (Country)
-    REFERENCES countries(Country),
+ALTER TABLE covid_19_india
+MODIFY `State/UnionTerritory` VARCHAR(100);
 
-    CONSTRAINT chk_deaths
-    CHECK (Deaths <= Confirmed_Cases)
-);
+ALTER TABLE covid_19_india
+MODIFY Date VARCHAR(20);
+
+ALTER TABLE covid_19_india
+ADD CONSTRAINT uq_state_date
+UNIQUE (`State/UnionTerritory`, Date);
