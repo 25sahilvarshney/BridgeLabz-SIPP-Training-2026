@@ -4,6 +4,17 @@ import java.util.List;
 import java.util.Queue;
 
 public class AnnouncementSystem {
+    static class Node {
+        int val;
+        Node left;
+        Node right;
+
+        Node(int val) {
+            this.val = val;
+        }
+    }
+
+
     public List<List<Integer>> broadcastByLevel(Node root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null) return result;
