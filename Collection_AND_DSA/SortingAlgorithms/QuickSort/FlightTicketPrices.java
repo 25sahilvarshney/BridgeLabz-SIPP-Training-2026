@@ -1,3 +1,5 @@
+package Collection_AND_DSA.SortingAlgorithms.QuickSort;
+
 import java.util.*;
 
 public class FlightTicketPrices {

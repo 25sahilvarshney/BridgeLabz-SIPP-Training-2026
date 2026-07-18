@@ -1,4 +1,4 @@
-package ScenarioBased;
+package Collection_AND_DSA.BinarySearch.ScenarioBased;
 public class AstronomerStar {
 
     public static int binarySearch(int[] arr, int target) {

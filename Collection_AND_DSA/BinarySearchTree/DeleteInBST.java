@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearchTree;
+
 public class DeleteInBST {
 
     static class Node {

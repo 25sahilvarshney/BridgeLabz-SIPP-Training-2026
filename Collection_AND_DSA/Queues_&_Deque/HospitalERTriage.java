@@ -1,3 +1,5 @@
+package Collection_AND_DSA.Queues_Deque;
+
 import java.util.PriorityQueue;
 
 class Patient {

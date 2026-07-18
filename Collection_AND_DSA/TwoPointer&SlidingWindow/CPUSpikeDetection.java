@@ -1,3 +1,5 @@
+package Collection_AND_DSA.TwoPointer_SlidingWindow;
+
 public class CPUSpikeDetection {
 
     public static int maxWindowSum(int[] cpu, int k) {

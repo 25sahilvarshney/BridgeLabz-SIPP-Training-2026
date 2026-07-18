@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearch;
+
 public class FirstandLastOccurrence {
 
     public static int firstOccurrence(int[] arr, int target) {

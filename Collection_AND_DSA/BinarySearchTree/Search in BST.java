@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearchTree;
+
 class SearchInBST {
     static class Node {
         int val;

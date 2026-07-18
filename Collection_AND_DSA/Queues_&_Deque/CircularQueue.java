@@ -1,3 +1,5 @@
+package Collection_AND_DSA.Queues_Deque;
+
 class PacketBuffer {
     private int[] data;
     private int front;

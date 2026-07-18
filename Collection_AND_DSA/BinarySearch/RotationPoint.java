@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearch;
+
 public class RotationPoint {
 
     public static int findRotationPoint(int[] arr) {

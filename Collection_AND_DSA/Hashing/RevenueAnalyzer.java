@@ -1,3 +1,5 @@
+package Collection_AND_DSA.Hashing;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,3 +1,5 @@
+package Collection_AND_DSA.CollectionFrameworks;
+
 import java.util.*;
 
 class Contact implements Comparable<Contact> {

@@ -1,3 +1,5 @@
+package Collection_AND_DSA.Hashing;
+
 import java.util.HashSet;
 import java.util.Set;
 

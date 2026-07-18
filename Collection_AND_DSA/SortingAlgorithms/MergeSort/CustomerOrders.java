@@ -1,3 +1,5 @@
+package Collection_AND_DSA.SortingAlgorithms.MergeSort;
+
 import java.util.*;
 
 public class CustomerOrders {

@@ -1,3 +1,5 @@
+package Collection_AND_DSA.SortingAlgorithms.ScenarioBasedQuestion;
+
 import java.util.*;
 
 public class QuickSortBooks {

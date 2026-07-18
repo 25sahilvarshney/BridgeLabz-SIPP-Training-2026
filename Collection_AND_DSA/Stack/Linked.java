@@ -1,3 +1,5 @@
+package Collection_AND_DSA.Stack;
+
 class CallStack {
     private static class Frame {
         String functionName;

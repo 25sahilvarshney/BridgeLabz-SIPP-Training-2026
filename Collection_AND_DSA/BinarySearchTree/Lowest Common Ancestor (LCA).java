@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearchTree;
+
 class LowestCommonAncestorLCA {
 
     static class Node {

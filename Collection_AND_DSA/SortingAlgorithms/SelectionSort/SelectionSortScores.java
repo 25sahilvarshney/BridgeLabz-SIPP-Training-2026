@@ -1,3 +1,5 @@
+package Collection_AND_DSA.SortingAlgorithms.SelectionSort;
+
 import java.util.Arrays;
 
 public class SelectionSortScores {

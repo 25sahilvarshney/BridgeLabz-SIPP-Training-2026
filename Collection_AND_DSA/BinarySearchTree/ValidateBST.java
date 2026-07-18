@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearchTree;
+
 public class ValidateBST {
     static class Node {
         int val;

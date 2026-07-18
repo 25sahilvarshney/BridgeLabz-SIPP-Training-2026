@@ -1,3 +1,5 @@
+package Collection_AND_DSA.Stack;
+
 class UndoBuffer {
     private String[] data;
     private int top;

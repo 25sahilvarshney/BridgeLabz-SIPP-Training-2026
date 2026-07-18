@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearch;
+
 public class Search2DMatrix {
 
     public static boolean searchMatrix(int[][] matrix, int target) {

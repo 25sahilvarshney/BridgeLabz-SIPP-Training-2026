@@ -1,3 +1,5 @@
+package Collection_AND_DSA.TwoPointer_SlidingWindow;
+
 public class PairSumFraudDetection {
     public static void findPair(int[] transactions, int target) {
         int left = 0;

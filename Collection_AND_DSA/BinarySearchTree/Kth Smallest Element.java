@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearchTree;
+
 class KthSmallestElement {
     static class Node {
         int val;

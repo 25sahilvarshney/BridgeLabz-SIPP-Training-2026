@@ -1,3 +1,5 @@
+package Collection_AND_DSA.SortingAlgorithms.ScenarioBased;
+
 import java.util.Arrays;
 
 public class InsertionSortSports {

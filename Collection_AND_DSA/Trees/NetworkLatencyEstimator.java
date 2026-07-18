@@ -1,3 +1,5 @@
+package Collection_AND_DSA.Trees;
+
 class Node {
     int val;
     Node left;

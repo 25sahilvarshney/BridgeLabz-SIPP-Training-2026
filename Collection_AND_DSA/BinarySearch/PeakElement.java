@@ -1,3 +1,5 @@
+package Collection_AND_DSA.BinarySearch;
+
 public class PeakElement {
 
     public static int findPeak(int[] arr) {
