@@ -1,0 +1,11 @@
+SELECT country, SUM(deaths) AS total_deaths
+FROM covid_deaths
+GROUP BY country
+HAVING SUM(deaths) > (
+    SELECT AVG(total_country_deaths)
+    FROM (
+        SELECT SUM(deaths) AS total_country_deaths
+        FROM covid_deaths
+        GROUP BY country
+    ) AS country_totals
+);
